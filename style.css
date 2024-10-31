@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.ttf');
+}
+
+
+
+body{
+    background-color: #EEEFF1;
+    font-family: 'Roboto';
+}
+.head-container{
+    height: 700px;
+
+}
+.head-box ul{
+    display: flex;
+    gap: 42px;
+    margin-top: 70px;
+    list-style: none;
+}
+
+.head-box a{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+li >a:hover{
+    color:#34547A;
+}
+
+.head-box{
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.title-name{
+    display: flex;
+    flex-direction: column;
+    margin: 162px 0 0 30px;
+    gap: 60px;
+}
+
+.title-name h1{
+    font-size: 48px;
+}
+
+.title-name p{
+    color: #727272;
+    line-height: 2;
+
+}
+
+
+.btn{
+    width: 227px;
+    height: 65px;
+    background-color: #34547A;
+    color:white;
+    border: none;
+}
+
+.second-box{
+    height: 400px;
+    background-color:white;
+}
+.second-name{
+    width: 540px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px;
+    gap: 20px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.second-name p{
+    line-height: 2;
+    color: #727272;
+}
+
+.icon-box{
+    height: 250px;
+    background-color: #34547A;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.third-box{
+    height: 400px;
+}
+
+.third-name{
+    width: 540px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 90px;
+    gap: 20px;
+}
+
+.third-name p{
+    line-height: 2;
+    color: #727272;
+}
+
+.image-box{
+    height: 700px;
+}
+
+
+.image-container {
+    background-image: url("images/image-back.png");
+    background-size: 1110px;
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.image-container img{
+    margin-left: 505px ;
+    padding-top: 250px;
+}
+
+.bottom-box{
+    height: 151px;
+    background-color: #34547A;
+}
+
+footer{
+    width: 1250px;
+    margin: 0 auto;
+}
+.bottom-box h3{
+    padding-top: 50px;
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+}
+.bottom-box p{
+color:white;
+font-size: 13px;
+font-weight: 400;
+
+}
